@@ -20,7 +20,7 @@ function play() {
           "Please enter Rock, Paper, or Scissors. Do you want to try again?"
         );
         if (retry) {
-          // call the function for again jump to playChoice take the value again
+          // call the function for again jump to playChoice 
           playground(this);
         } else {
           alert("Ok, I guess You Change your mind. Maybe next time. Bye!");
@@ -59,7 +59,7 @@ function play() {
           // Ask the player if they want to play again
           let playAgain = confirm("Play Again");
           if (playAgain) {
-            // call the function for again jump to playChoice take the value again
+            // call the function for again jump to playChoice 
             playground(this);
           } else {
             alert("Ok, thanks for playing.");
@@ -70,7 +70,7 @@ function play() {
             "You didn't enter Rock, Paper, or Scissors correctly. Do you want to try again?"
           );
           if (wrongText) {
-            // call the function for again jump to playChoice take the value again
+            // call the function for again jump to playChoice 
             playground(this);
           } else {
             alert("Ok, thanks for playing.");
